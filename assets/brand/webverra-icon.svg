@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="webverraGrad" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#9333EA" />
+    </linearGradient>
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#2563EB" flood-opacity="0.15" />
+    </filter>
+  </defs>
+  <!-- Geometric Tech Network Node Emblem -->
+  <rect x="2" y="2" width="44" height="44" rx="10" fill="#08111F" />
+  <g filter="url(#subtleGlow)">
+    <!-- Network interconnect lines -->
+    <path d="M14 24 L24 14 L34 24 L24 34 Z" stroke="url(#webverraGrad)" stroke-width="2.5" stroke-linejoin="round" />
+    <path d="M14 24 L34 24" stroke="url(#webverraGrad)" stroke-width="1.5" stroke-dasharray="2 2" opacity="0.7" />
+    <path d="M24 14 L24 34" stroke="url(#webverraGrad)" stroke-width="1.5" stroke-dasharray="2 2" opacity="0.7" />
+    <!-- Dynamic Nodes -->
+    <circle cx="24" cy="14" r="3.5" fill="#FFFFFF" stroke="#2563EB" stroke-width="2" />
+    <circle cx="34" cy="24" r="3.5" fill="#FFFFFF" stroke="#9333EA" stroke-width="2" />
+    <circle cx="24" cy="34" r="3.5" fill="#FFFFFF" stroke="#9333EA" stroke-width="2" />
+    <circle cx="14" cy="24" r="3.5" fill="#FFFFFF" stroke="#2563EB" stroke-width="2" />
+    <!-- Central Processing Core -->
+    <circle cx="24" cy="24" r="4.5" fill="url(#webverraGrad)" />
+    <circle cx="24" cy="24" r="1.5" fill="#FFFFFF" />
+  </g>
+</svg>

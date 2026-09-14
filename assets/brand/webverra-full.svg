@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 48" width="260" height="48" fill="none">
+  <defs>
+    <linearGradient id="webverraFullGrad" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#9333EA" />
+    </linearGradient>
+  </defs>
+  <!-- Icon Mark -->
+  <rect x="2" y="4" width="40" height="40" rx="9" fill="#08111F" />
+  <path d="M12 24 L22 14 L32 24 L22 34 Z" stroke="url(#webverraFullGrad)" stroke-width="2" stroke-linejoin="round" />
+  <circle cx="22" cy="14" r="2.8" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.8" />
+  <circle cx="32" cy="24" r="2.8" fill="#FFFFFF" stroke="#9333EA" stroke-width="1.8" />
+  <circle cx="22" cy="34" r="2.8" fill="#FFFFFF" stroke="#9333EA" stroke-width="1.8" />
+  <circle cx="12" cy="24" r="2.8" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.8" />
+  <circle cx="22" cy="24" r="3.5" fill="url(#webverraFullGrad)" />
+  <!-- Typography Wordmark -->
+  <text x="54" y="26" font-family="Plus Jakarta Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#08111F" letter-spacing="-0.02em">Webverra</text>
+  <text x="144" y="26" font-family="Plus Jakarta Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="400" fill="#5B6472" letter-spacing="-0.01em">Technologies</text>
+  <text x="54" y="38" font-family="Plus Jakarta Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="600" fill="#8D96A5" letter-spacing="0.12em" text-transform="uppercase">Digital Engineering Studio</text>
+</svg>
